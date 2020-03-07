@@ -16,6 +16,7 @@ public class DeptController {
     @Autowired
     DeptService deptService;
 
+
     @RequestMapping(value = "/selDept" ,method = RequestMethod.GET)
     public Object selDept(){
         Object res = deptService.selDept();
