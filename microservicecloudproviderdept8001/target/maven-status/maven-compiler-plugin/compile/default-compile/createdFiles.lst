@@ -1,0 +1,6 @@
+com\mtg\melted\DeptProvider8001_App.class
+com\mtg\melted\service\impl\DeptServiceImpl.class
+com\mtg\melted\mapper\DeptTestMapper.class
+com\mtg\melted\mapper\Test.class
+com\mtg\melted\service\DeptService.class
+com\mtg\melted\controller\DeptController.class
