@@ -11,7 +11,8 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/consumer/dept")
 @RestController
 public class DeptController_Consumer {
-    private static String REST_URL_PREFIX = "http://localhost:8001";
+//    private static String REST_URL_PREFIX = "http://localhost:8001";
+    private static String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
     @Autowired
     RestTemplate restTemplate;
