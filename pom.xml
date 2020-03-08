@@ -12,6 +12,9 @@
         <module>microservicecloudapi</module>
         <module>microservicecloudproviderdept8001</module>
         <module>microservicecloudconsumerdept80</module>
+        <module>microservicecloudeureka7001</module>
+        <module>microservicecloudeureka7002</module>
+        <module>microservicecloudeureka7003</module>
     </modules>
 
     <properties>
