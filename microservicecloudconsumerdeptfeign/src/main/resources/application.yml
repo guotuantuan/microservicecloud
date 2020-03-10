@@ -18,3 +18,7 @@ ribbon:
   OkToRetryOnAllOperations: true
   restclient:
     enable: true
+
+feign:
+  hystrix:
+    enabled: true
