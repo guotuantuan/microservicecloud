@@ -1,0 +1,28 @@
+server:
+  port: 9527
+
+String:
+  application:
+    name: microservicecloud-zuul-gateway
+
+zuul:
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+  ignored-services: "*"
+  prefix: /melted
+
+
+eureka:
+  client:
+    service-url:
+      #单一eureka配置
+      defaultZone: http://localhost:7001/eureka
+
+      #eureka集群配置
+#      defaultZone:  http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+  instance:
+    instance-id:  gateway-9527.com
+    prefer-ip-address: false
+
